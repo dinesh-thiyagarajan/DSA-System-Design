@@ -1,4 +1,4 @@
-package CreationalDesignPatterns;
+package CreationalDesignPatterns.Singleton;
 
 
 public class Singleton {
@@ -13,7 +13,7 @@ public class Singleton {
 
     /**
      * Defining the method as Static
-     * so that getInstance method can be accessed without creating an instance of CreationalDesignPatterns.Singleton Class
+     * so that getInstance method can be accessed without creating an instance of CreationalDesignPatterns.Singleton.Singleton Class
      */
     public synchronized static Singleton getInstance() {
         if (singleton == null) {
