@@ -7,6 +7,7 @@ public class NotificationService {
         notificationFactory.sendNotification("SMS").notifyUser();
         notificationFactory.sendNotification("EMAIL").notifyUser();
         notificationFactory.sendNotification("PUSH").notifyUser();
+        notificationFactory.sendNotification("").notifyUser();
     }
 
 }
