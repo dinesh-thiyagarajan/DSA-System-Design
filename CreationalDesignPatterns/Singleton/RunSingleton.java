@@ -1,6 +1,6 @@
 package CreationalDesignPatterns.Singleton;
 
-public class TestSingleton {
+public class RunSingleton {
 
     /**
      * Since getInstance returns the same instance all the time, the hashcode will match in the two print statements
